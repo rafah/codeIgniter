@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "olaMundo";
+$route['default_controller'] = "crud";
 $route['404_override'] = '';
 
 
