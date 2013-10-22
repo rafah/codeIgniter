@@ -3,9 +3,9 @@
 class OlaMundo extends CI_Controller {
 
 	public function index(){
-		echo __FUNCTION__;
+		$this->load->view('olamundo');
 	}
 	public function incluir(){
-		echo __FUNCTION__;
+		$this->load->view('exemplo2');
 	}
 }
